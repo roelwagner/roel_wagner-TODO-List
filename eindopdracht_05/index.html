@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/e63b30511c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="api-client.js"></script>
+    <script defer src="script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Alegreya Sans SC"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>ToDo</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <h1>ToDo List</h1>
+      </header>
+      <div class="input">
+        <input
+          type="text"
+          name="task"
+          id="taskname"
+          class="inputfield"
+          placeholder="New Task"
+        />
+        <button id="addtask" class="addtask">Add</button>
+      </div>
+      <ul id="todo__list" class="todo__list"></ul>
+    </div>
+  </body>
+</html>
